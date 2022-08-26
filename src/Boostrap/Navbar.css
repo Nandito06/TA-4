@@ -1,0 +1,9 @@
+ .Nav {
+ list-style: none;
+ text-decoration:none !important;
+    color: rgb(255, 255, 255) !important;
+ display: flex;
+}
+.nav-link{
+    text-decoration:none !important;
+} 
