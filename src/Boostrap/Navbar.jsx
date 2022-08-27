@@ -15,7 +15,7 @@ function Navbarmenu() {
         <div className='navbarPosisi'>
             <nav class="navbar navbar-expand-lg  fixed-top navbar-dark">
                 <div class="container">
-                    <h1 class="navbar-brand" style={{ fontSize: '60px' }}>It's <span>NaN</span> </h1>
+                    <h1 class="navbar-brand itsnan" >It's <span>NaN</span> </h1>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>

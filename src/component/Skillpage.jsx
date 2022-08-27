@@ -4,7 +4,7 @@ function Skillpage() {
     return (
         <div className="skill">
             <div className='container text-center'>
-                <div className='row'>
+                <div className='row aturskill'>
                     <div className='col-md-6' >
                         <h1>Skill Page</h1>
                         <br />

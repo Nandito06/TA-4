@@ -6,7 +6,7 @@ import './App.css';
 /// import Skillpage from './component/Skillpage';
 // import Blog from './component/Blog';
 import Profilelengkap from './hal tambahan/profileLengkap';
-
+import Footer from './component/Footer';
 import Navbar from './Boostrap/Navbar';
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
       <Routes>
         <Route path="/about/biodataLengkap" element={<Profilelengkap />} />
       </Routes>
-
+<Footer />
     </div>
 
   );

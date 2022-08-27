@@ -8,11 +8,11 @@ function Profilelengkap() {
             <div className='container text-center'>
                 <div className="row">
                     <div className="col-md-6">
-                        <img src={Wisata} alt="" style={{ width: '500px' ,marginTop:'100px'}} />
+                        <img src={Wisata} alt="" className='porfilelengkap'/>
 
                     </div>
 
-                    <div className="col-md-6 biodata" style={{ marginTop: '130px', fontSize: '18px', textAlign: 'left' }}>
+                    <div className="col-md-6 biodata">
 
                         <ul> <h1>BIODATA KU</h1>
                             <li><b>Name:</b> Nandito Makdrian Poto</li>
@@ -25,10 +25,10 @@ function Profilelengkap() {
                                 <ol>SMP (SMPN 1 Maluk)</ol>
                                 <ol>SMK (SMKN 1 Maluk)</ol>
 
-
+                                <Link to='/about'><button className='btnp'>Back</button></Link>
                             </li>
                             <br />
-                            <Link to='/about'><button className='btnp'>Back</button></Link>
+                         
                         </ul>
 
                         <Routes>

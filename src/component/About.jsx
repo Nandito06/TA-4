@@ -7,11 +7,13 @@ function About() {
         <div className='about'>
 
             <div className="container text-center mobile">
-                <h1 style={{ marginBottom: '40px' }}>About Me</h1>
-                <div className="row">
-                    <div className="col-md-6 col- imgAbout">
+              
+                <div className="row"> 
+                <h1 className='h1about'>About Me</h1>
+                    <div className="col-md-6  imgAbout">
+                   
 
-                        <img src={foto} alt="foto nando " style={{ width: '300px', borderRadius: '150px' }} />
+                        <img src={foto} alt="foto nando " className='gambarA'/>
                     </div>
 
                     <div className="col-md-6 text-center textAbout" style={{ marginTop: '100px' }} >

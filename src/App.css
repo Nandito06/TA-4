@@ -1,5 +1,15 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #fff9f9;
+}
+
 .home{
   font-family: 'Poppins', sans-serif;
 
@@ -35,6 +45,9 @@ p{
   transform:translateY(101%);
   transition:transform 0.3s ease-in;
   font-family: 'Poppins', sans-serif;
+  
+     text-Decoration: none;
+     font-Size: 30px;
 }
 .project:hover .teks{
   transform:translateY(0)
@@ -51,16 +64,8 @@ div .blog{
 .jarakblog{
   margin-top: 100px;
 }
-div .Profile{
-  color: rgb(0, 0, 0);
-  min-height: 100vh;
-  background-color: #b1cba6;
-  display: flex;
-  align-items: center;
-  font-family: 'Poppins';
-  
- 
-
+.terra{
+  font-size: 20px;
 }
 ul li{
   list-style: none;
@@ -84,17 +89,31 @@ div .skill{
   align-items: center;
   font-family: 'Poppins', sans-serif;
 }
-
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  color: #fff9f9;
+.h1about{
+  margin-top: 100px;
+}
+.gambarA{
+  width: 300px;
+   border-Radius:150px;
+}
+div .Profile{
+  color: rgb(0, 0, 0);
+  min-height: 100vh;
+  background-color: #b1cba6;
+  display: flex;
+  align-items: center;
+  font-family: 'Poppins';
+}
+.porfilelengkap{
+  width:400px;
+  margin-top: 100px;
 }
 
+.biodata{
+  margin-Top: 150px;
+   font-Size: 16px;
+    text-Align: left;
+}
 p {
   margin: 0;
   font-size: 13px;
@@ -121,10 +140,9 @@ nav {
   
   border-radius: 4px;
   
- margin-top: 20px;
+ 
 
- margin-top: 550px;
- margin-right: 20px;
+ 
  
 
 }
@@ -289,16 +307,88 @@ span{
  .pendidikan{
   margin-top: 100px;
  }
- @media (max-width:800px) {
-.about{
-  font-size: 100px;
+ .itsnan{
+  font-Size:60px;
 }
-  .textAbout{
-   font-size: 100px;
-   
+aturskill{
+  margin: 0;
+}
+.footer{
+  font-size: 20px;
+  
+  color: #fffdfd;
+  text-align: center;
+  background-color: black;
+}
+
+ @media screen and (max-width:490px){
+  .itsnan{
+  font-size: 40px;
+}
+.home{
+  font-size: 2px;
+}
+  div .nando{
+    font-size: 40px;
   }
-  .jarakblog{
-    margin-bottom: 10px;
-    margin-top: 0;
-  }
+.about{
+ background-color: #8F8CF2; 
+ 
+}
+  .h1about{
+  margin-top: 200px;
  }
+.gambarA{
+  width: 150px;
+   border-Radius:150px;
+   margin-top: 10px;
+ }
+ .porfilelengkap{
+  width:300px;
+  margin-top: 150px;
+}
+.biodata{
+  margin-Top: 50px;
+   font-Size: 15px;
+    text-Align: left;
+    color: #fff;
+}
+.teks{
+  font-size: 20px;
+}
+.project{
+  margin-bottom: 100px;
+  width: 300px;
+  border-radius: 3px;
+    box-shadow: 0.2px 4px 5px rgba(0,0,0,0.1);
+  
+    position:relative;
+    overflow: hidden;
+}
+.jarakblog{
+  margin-top: 150px;
+}
+.terra{
+  font-size: 9px;
+}
+.teks{
+  color: #fff3f3;
+  position:absolute;
+  left:0;
+  right:0;
+  bottom:0;
+  background-color: rgba(7, 6, 6, 0.708);
+  padding: 1rem;
+  max-height: 100%;
+  transform:translateY(101%);
+  transition:transform 0.3s ease-in;
+  font-family: 'Poppins', sans-serif;
+}
+.project:hover .teks{
+  transform:translateY(0)
+}
+.aturskill{
+
+  margin-top: 150px;
+}
+}

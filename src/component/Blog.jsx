@@ -14,8 +14,8 @@ function Blog() {
                     <div className="row">
                         <img src={terraimage} alt="" />
                         <div className='teks'>
-                            <a href='https://terrafresh.netlify.app/' style={{ color: 'yellow', textDecoration: 'none', fontSize: '20px' }}>TERRA FRESH</a>
-                            <p>terra fresh adalah project tentang simulasi belanja sayur buah online,yang di buat untuk membantu pembeli dalam memilih buah dan sayuran yang berkualitas, kaya akan kandungan gizi, dan ramah lingkungan. </p>
+                            <a href='https://terrafresh.netlify.app/' style={{color:'yellow',textDecoration:'none'}}>TERRA FRESH</a>
+                            <p className='terra'>terra fresh adalah project tentang simulasi belanja sayur buah online,yang di buat untuk membantu pembeli dalam memilih buah dan sayuran yang berkualitas, kaya akan kandungan gizi, dan ramah lingkungan. </p>
                         </div>
                     </div>
                 </div>

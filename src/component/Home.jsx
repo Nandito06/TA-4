@@ -8,7 +8,7 @@ function Home() {
         <div className='home'>
 
             <div className="container ">
-                <h1>Nandito Makdrian Poto</h1>
+                <h1 className='nando'>Nandito Makdrian Poto</h1>
                 <h3 style={{ color: 'white' }}>Web <span>Developer</span></h3>
                 <p style={{ fontSize: '20px' }}>Find Me </p>
                 <a href="https://www.instagram.com/nandito_ndo/" target="_blank" className='sosmed'>
@@ -20,9 +20,9 @@ function Home() {
                 </a>
 
                 <br />
-
+                <Link to='/about'> <button className='btn'>Next</button></Link>
             </div>
-            <Link to='/about'> <button className='btn'>Next</button></Link>
+           
             <Routes>
                 <Route path='/about' element={<About />} />
             </Routes>
