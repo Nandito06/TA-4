@@ -310,9 +310,13 @@ span{
  .itsnan{
   font-Size:60px;
 }
-aturskill{
-  margin: 0;
+
+.bahasa{
+  background-color: transparent;
+  border: none;
 }
+
+
 .footer{
   font-size: 20px;
   
@@ -320,6 +324,7 @@ aturskill{
   text-align: center;
   background-color: black;
 }
+
 
  @media screen and (max-width:490px){
   .itsnan{
@@ -391,4 +396,5 @@ aturskill{
 
   margin-top: 150px;
 }
-}
+
+ }

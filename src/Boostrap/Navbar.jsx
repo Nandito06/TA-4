@@ -6,9 +6,12 @@ import Home from '../component/Home';
 import About from '../component/About';
 import Skillpage from '../component/Skillpage';
 import Blog from '../component/Blog';
-
+import { AppContext } from '../Context/AppContext';
+// import Toggle from '../Toggle/toggle';
 
 function Navbarmenu() {
+
+    const contex = React.useContext(AppContext);
 
 
     return (
@@ -22,17 +25,29 @@ function Navbarmenu() {
                     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <div class="navbar-nav ms-auto">
                             <div className="nav-menu">
-                                <ul className='Nav'>
-                                    <li class="nav-link active" aria-current="page" ><Link to="/"> Home</Link>
+                               
+                                <ul className="Nav">
+                                    
+                                
+                                    <li class="nav-link active" aria-current="page" ><Link to="/">  {contex.lang === "en" ? "Home" : "Beranda"}</Link>
                                     </li>
 
-                                    <li class="nav-link active" ><Link to='/about'> About</Link>
+                                    <li class="nav-link active" ><Link to='/about'> 
+                                    {contex.lang === "en" ? "About" : "Tentang"}</Link>
                                     </li>
-                                    <br />
-                                    <li class="nav-link active" > <Link to="/skillPage"> Skill Page</Link>
+
+                                   
+                                    <li class="nav-link active" > <Link to="/skillPage"> {contex.lang === "en" ? "SkillPage" : "Kemampuan"}</Link>
                                     </li>
-                                    <br />
-                                    <li class="nav-link active"><Link to="/blog"> Blog</Link></li>
+
+                                   
+                                    <li class="nav-link active"><Link to="/blog"> 
+                                    {contex.lang === "en" ? "Project" : "Projek"}</Link></li>
+
+                                    <li> <button class="nav-link bahasa" onClick={() => contex.onchangebahasa(contex.lang === "en" ? "id" : "en")} >{contex.lang==="en"?"en":"id"}</button></li>
+                                   
+                                    
+                                    
                                 </ul>
                             </div>
 

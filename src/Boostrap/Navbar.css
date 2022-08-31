@@ -6,4 +6,34 @@
 }
 .nav-link{
     text-decoration:none !important;
-} 
+}
+label .close{
+    
+    font-size: 20px;
+    display: none;
+  } 
+@media screen and (max-width:490px){
+    .Nav {
+        list-style: none;
+        text-decoration:none !important;
+           color: rgb(255, 255, 255) !important;
+        display: contents;
+        background-color: black;
+       }
+       label .close{
+        position: relative;
+        font-size: 20px;
+        display: block;
+      float: right;
+      margin-left: 280px;
+      }
+      ul li {
+       
+       
+       
+        background-color: rgba(0, 0, 0, 0.532);
+      }
+      #check:checked~ label{
+        display: none;
+      }
+}
